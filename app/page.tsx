@@ -1,10 +1,12 @@
 import './styles/styles.css'
-import Slider from './components/Slider'
+
+//* Importación de componentes:
+import FeatureSection from './components/FeatureSection'
 
 export default function Home() {
   return (
     <div id='container-home'>
-      <Slider/>
+      <FeatureSection/>
     </div>
   )
 }
