@@ -1,9 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Inicio de Partial de PAGE */
 #container-home {
   /*  border: 2px solid blue; */
-  padding: 1.5rem;
-  font-weight: 100;
-  font-family: fantasy;
+  padding: 1rem;
 }
 
 /* Estilos del NAVBAR */
@@ -19,8 +21,8 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: black;
-  padding: 1.5rem 0;
-  height: 2rem;
+  padding: 2;
+  height: 5rem;
   position: fixed;
 }
 
@@ -39,7 +41,7 @@
 
 #container-imageLogo {
   /* border: 1px solid blueviolet; */
-  height: 4rem;
+  height: 100%;
   width: 25%;
 }
 
