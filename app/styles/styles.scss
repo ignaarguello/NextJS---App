@@ -1,4 +1,12 @@
+//? Importanciones de Tailwind (No borrar o se perderan estilos)
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+//!Importanciones de los Partials
 @import './partials/body';
 @import './partials/app';
-@import './partials/navbar'
+@import './partials/navbar';
+@import './partials/posts';
 

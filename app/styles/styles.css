@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +22,7 @@ body {
 
 /* Inicio de Partial de PAGE */
 #container-home {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
 }
 
@@ -65,5 +68,12 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: crosshair;
+}
+
+#container-posts {
+  border: 1px solid gray;
+  margin: 2rem 0;
+  text-align: center;
+  padding: 1rem;
 }
 /*# sourceMappingURL=styles.css.map */
